@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  background-color: white;
+}
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  list-style: none;
+  font-size: 19px;
+  padding: 0 7% 0 7%;
+}
+.nav-container a {
+  text-decoration: none;
+  color: black;
+}
+.spaar-prog {
+  padding: 12.5px 20px;
+  border-radius: 45px;
+  background-color: green;
+}
+.section {
+  background-image: url(https://www.pickwick.nl/siteassets/_new/iconselements/header-visuals/pick_2019_zom_midd_02551.jpg?preset=block-background);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0% 0% 50% 50%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 1rem;
+}
+.middag {
+  font-family: "Mountains of Christmas", cursive;
+  font-size: 5.5rem;
+  color: wheat;
+}
+.middag-p {
+  font-family: "Permanent Marker", cursive;
+  font-size: 27px;
+  color: lightslategray;
+}
+.main{
+
+}
+
