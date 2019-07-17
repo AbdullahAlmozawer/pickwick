@@ -44,7 +44,89 @@
   font-size: 27px;
   color: lightslategray;
 }
-.main{
+.main-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: lightgrey;
+  
+  
 
+}
+.main-l{
+display: grid;
+grid-template-rows: 1fr 2fr 1fr; 
+align-items:center;
+padding: 50px;
+  
+
+}
+.what-meer{
+  padding: 30px;
+  font-family: 'Satisfy', cursive;
+color: green;
+font-size: 2.5rem;
+
+
+
+}
+.meer-p{
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+
+
+
+}
+.even-ont {
+
+  font-family: 'Kaushan Script', cursive;
+  
+  
+}
+.main-r{
+  margin: 20px;
+  
+}
+.main-r img {
+  width: 70%;
+}
+.favorite-site{
+  background-color:whitesmoke;
+}
+.favorite-3 {
+
+}
+.cards {
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5rem;
+  margin: 19px;
+}
+.favorite-smaak {
+  
+
+}
+.favorite-h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: rgb(46, 177, 46);
+  margin-left: 570px
+  
+  
+}
+
+.favorite-h11{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: rgb(46, 177, 46);
+  
+}
+.card-h3{
+  font-family: 'Dancing Script', cursive;
+
+}
+.card-p {
+  font-size: 28px;
+  color:gray;
 }
 
