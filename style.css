@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 .nav-bar {
   background-color: white;
 }
@@ -23,6 +24,12 @@
   padding: 12.5px 20px;
   border-radius: 45px;
   background-color: green;
+  color: black;
+}
+.spaar-prog:hover {
+  color: whitesmoke;
+  opacity: 50%;
+  border:white solid 2px;
 }
 .section {
   background-image: url(https://www.pickwick.nl/siteassets/_new/iconselements/header-visuals/pick_2019_zom_midd_02551.jpg?preset=block-background);
@@ -77,10 +84,16 @@ font-size: 2.5rem;
 
 }
 .even-ont {
-
   font-family: 'Kaushan Script', cursive;
-  
-  
+  padding: 12.5px 20px;
+  border-radius: 45px;
+  background-color: green;
+  display: inline;
+}
+  .even-ont:hover {
+  color: whitesmoke;
+  opacity: 50%;
+  border:white solid 2px;
 }
 .main-r{
   margin: 20px;
@@ -108,18 +121,20 @@ font-size: 2.5rem;
 }
 .favorite-h1 {
   font-family: 'Indie Flower', cursive;
-  font-size: 25px;
+  font-size: 50px;
   color: rgb(46, 177, 46);
-  margin-left: 570px
-  
-  
+  margin-left: 480px;
+  padding: 1rem;
+    
 }
+
 
 .favorite-h11{
   font-family: 'Indie Flower', cursive;
   font-size: 25px;
   color: rgb(46, 177, 46);
-  
+  margin-left: 570px;
+
 }
 .card-h3{
   font-family: 'Dancing Script', cursive;
@@ -129,4 +144,88 @@ font-size: 2.5rem;
   font-size: 28px;
   color:gray;
 }
+.topic-h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: rgb(46, 177, 46);
+}
+.topic-p {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+.topic-h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: rgb(46, 177, 46);
+  padding: 12.5px 20px;
+  border-radius: 45px;
+  background-color: green;
+  display: inline;
 
+}
+.topic-h2:hover {
+  color: whitesmoke;
+  opacity: 50%;
+  border:white solid 2px;
+}
+.tea-topic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.topic-1 video {
+  width: 90%;
+}
+.topic-2 {
+  display: grid;
+
+
+}
+.table-1{
+  
+}
+.cards2 {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 77px;
+  padding: 6rem;
+}
+.cards2 img {
+  width: 70%;
+
+}
+.inspareren {
+  margin-left: 40%;
+  margin-top: 40px;
+  font-family: 'Bonbon', cursive;
+  color: rgb(92, 184, 92);
+  font-size: 40px;
+  font-style:italic;
+  
+}
+.card2-h3 {
+  font-family: 'Shadows Into Light', cursive;
+font-size:30px;
+
+}
+.card2-p {
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+}
+.card2-h2 {
+  font-family: 'Satisfy', cursive;
+  padding: 12.5px 20px;
+  border-radius: 45px;
+  background-color: green;
+  color: aliceblue;
+  display: inline;
+  
+}
+.red {
+  padding:3rem;
+}
+.card2-h2:hover {
+  color: whitesmoke;
+  opacity: 50%;
+  border:white solid 2px;
+}
