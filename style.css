@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   margin: 0;
 }
@@ -32,7 +34,7 @@
 .spaar-prog:hover {
   color: whitesmoke;
   opacity: 50%;
-  border:white solid 2px;
+  border: white solid 2px;
 }
 .section {
   background-image: url(https://www.pickwick.nl/siteassets/_new/iconselements/header-visuals/pick_2019_zom_midd_02551.jpg?preset=block-background);
@@ -54,193 +56,201 @@
   font-size: 27px;
   color: lightslategray;
 }
-.main-2{
+.main-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: lightgrey;
-  
-  
-
 }
-.main-l{
-display: grid;
-grid-template-rows: 1fr 2fr 1fr; 
-align-items:center;
-padding: 50px;
-  
-
+.main-l {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 50px;
 }
-.what-meer{
+.what-meer {
   padding: 30px;
-  font-family: 'Satisfy', cursive;
-color: green;
-font-size: 2.5rem;
-
-
-
+  font-family: "Satisfy", cursive;
+  color: green;
+  font-size: 2.5rem;
 }
-.meer-p{
-  font-family: 'Kalam', cursive;
+.meer-p {
+  font-family: "Kalam", cursive;
   font-size: 20px;
-
-
-
 }
 .even-ont {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   padding: 12.5px 20px;
   border-radius: 45px;
   background-color: green;
   display: inline;
 }
-  .even-ont:hover {
+.even-ont:hover {
   color: whitesmoke;
   opacity: 50%;
-  border:white solid 2px;
+  border: white solid 2px;
 }
-.main-r{
+.main-r {
   margin: 20px;
-  
 }
 .main-r img {
   width: 70%;
 }
-.favorite-site{
-  background-color:whitesmoke;
+.favorite-site {
+  background-color: whitesmoke;
 }
 .favorite-3 {
-
 }
 .cards {
-  
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5rem;
   margin: 19px;
 }
 .favorite-smaak {
-  
-
 }
 .favorite-h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 50px;
   color: rgb(46, 177, 46);
   /* margin-left: 480px;
   padding: 1rem; */
-    text-align: center;
+  text-align: center;
 }
 
-
-.favorite-h11{
-  font-family: 'Indie Flower', cursive;
+.favorite-h11 {
+  font-family: "Indie Flower", cursive;
   font-size: 25px;
   color: rgb(46, 177, 46);
   margin-left: 570px;
-
 }
-.card-h3{
-  font-family: 'Dancing Script', cursive;
-
+.card-h3 {
+  font-family: "Dancing Script", cursive;
 }
 .card-p {
   font-size: 28px;
-  color:gray;
+  color: gray;
 }
-.topic-h1{
-  font-family: 'Indie Flower', cursive;
+.topic-h1 {
+  font-family: "Indie Flower", cursive;
   font-size: 50px;
   color: rgb(46, 177, 46);
 }
 .topic-p {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   font-size: 20px;
 }
 .topic-h2 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 25px;
   color: rgb(46, 177, 46);
   padding: 12.5px 20px;
   border-radius: 45px;
   background-color: green;
   display: inline;
-
 }
 .topic-h2:hover {
   color: whitesmoke;
   opacity: 50%;
-  border:white solid 2px;
+  border: white solid 2px;
 }
 .tea-topic {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 .topic-1 video {
   width: 90%;
 }
 .topic-2 {
   display: grid;
-
 }
 
 .cards2 {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 77px;
   padding: 6rem;
 }
 .cards2 img {
   width: 70%;
-
 }
 .inspareren {
   margin-left: 40%;
   margin-top: 40px;
-  font-family: 'Bonbon', cursive;
+  font-family: "Bonbon", cursive;
   color: rgb(92, 184, 92);
   font-size: 40px;
-  font-style:italic;
-  
+  font-style: italic;
 }
 .card2-h3 {
-  font-family: 'Shadows Into Light', cursive;
-font-size:30px;
-
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
 }
 .card2-p {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 18px;
 }
 .card2-h2 {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   padding: 12.5px 20px;
   border-radius: 45px;
   background-color: green;
   color: aliceblue;
   display: inline;
-  
 }
 .red {
-  padding:3rem;
+  padding: 3rem;
 }
 .card2-h2:hover {
   color: whitesmoke;
   opacity: 50%;
-  border:white solid 2px;
+  border: white solid 2px;
 }
-.table-1{
-  background-color: lightslategrey;
+.wrapper {
+
+}
+.thee-blaad {
+
+}
+.table-heading {
+  font-family: 'Kalam', cursive;
+  color: green;
+  font-size: 4rem;
+}
+.thee-blaad p {
+  font-size: 2rem;
+}
+.gender{
+  line-height: 4rem;
+  
+}
 }
 .container-3 {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 3fr;
-  
 }
 .footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .h1-last {
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
+}
+.sec-container a {
+  text-decoration: none;
+  color: black;
+}
+.sec-container {
+  list-style: none;
+  font-family: "Caveat", cursive;
+}
+.last-section {
+  margin: 1rem;
+}
+.footer-container {
+  list-style: none;
+  font-family: "Caveat", cursive;
+}
+.footer-container a {
+  text-decoration: none;
+  color: black;
 }
