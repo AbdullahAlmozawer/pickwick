@@ -205,24 +205,58 @@
   opacity: 50%;
   border: white solid 2px;
 }
-.wrapper {
-
-}
 .thee-blaad {
 
 }
-.table-heading {
+.title-1 {
   font-family: 'Kalam', cursive;
   color: green;
   font-size: 4rem;
 }
-.thee-blaad p {
-  font-size: 2rem;
+#newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100%;
+
 }
-.gender{
-  line-height: 4rem;
-  
+input {
+  padding:1rem;
+  border:1px none;
+  border-radius: 40px;
+  background: #f3f3f3;  
 }
+form {
+  display: block;
+}
+.contact-form .form-group {
+  margin: 20px 0;
+}
+.radio label{
+display: inline-block;
+margin-right: 2rem;
+margin-left: 1rem;
+}
+.radio input, .check-box input {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: -10%;
+  -webkit-appearance: none;
+}
+.check-box input {
+  border-radius: 0;
+}
+.radio input:checked,
+.check-box input:checked {
+  background-color: white;
+}
+.naam label,
+.email label {
+  display: block;
+  margin-bottom: 5px;
 }
 .container-3 {
   display: grid;
@@ -243,9 +277,7 @@
   list-style: none;
   font-family: "Caveat", cursive;
 }
-.last-section {
-  margin: 1rem;
-}
+
 .footer-container {
   list-style: none;
   font-family: "Caveat", cursive;

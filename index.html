@@ -172,57 +172,61 @@
 
 
 </div>
-<!-- table -->
-<main class="wrapper">
-  <div class="thee-blaad">
-    <h1 class="table-heading">Pickwick Theeblaadje</h1>
-    <p>
-        Onze nieuwsbrief loopt over van de lekkere recepten, aanbiedingen,<br>
-         nieuwe producten en leuke evenementen van Pickwick.
-    </p>
-  </div> 
-  
-  
-  <div class="gender">
-    <input type="radio" class="man" name="title" value="Dhr">
-    <label for="man">Dhr</label>
-    <input type="radio" class="vrouw" name="title" value="Mevr">
-    <label for="vrouw">Mevr</label>
-  </div>
+<!-- form -->
 
-  <div class="voor-achter">
-    <div>
-      <label for="voornaam">voornaam &nbsp &nbsp</label>
-      <input type="text" class="voornaam" name="voornaam">
-    </div>
-    <div>
-      <label for="achternaam">achternaam &nbsp</label>
-      <input type="text" class="achternaam" name="achternaam">
+<section id="newsletter">
+  <div class="container">
+    <div class="one-column-container">
+      <h1 class="title-1">Pickwick Theeblaadje</h1>
+      <form class="contact-form" action="#">
+        <p>
+          Onze nieuwsbrief loopt over van de lekkere recepten, aanbiedingen,
+          nieuwe producten en leuke evenementen van Pickwick.
+        </p>
+        <div class="radio form-group">
+          <input type="radio" id="man" name="title" value="Dhr." /><label
+            for="man"
+            >Dhr</label
+          >
+          <input type="radio" id="vrouw" name="title" value="Mevr." /><label
+            for="vrouw"
+            >Mevr</label
+          >
+        </div>
+        <div class="naam form-group">
+          <div>
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="voornaam" />
+          </div>
+          <div>
+            <label for="achternaam">achternaam</label>
+            <input type="text" id="achternaam" name="achternaam" />
+          </div>
+        </div>
+
+        <div class="email form-group">
+          <label for="mail">E-mailadres</label>
+          <input type="email" id="mail" name="user_mail" />
+        </div>
+        <div class="check-box form-group">
+          <input type="checkbox" id="leeftijd" name="leeftijd" />
+          <label for="leeftijd">Ja, ik ben ouder dan 16 jaar.</label>
+        </div>
+        <div class="check-box form-group">
+          <input type="checkbox" id="agreement" name="agreement" />
+          <label for="agreement"
+            >Ja, ik ontvang graag gepersonaliseerde e-mails over Pickwick
+            producten, exclusieve aanbiedingen, promoties en service op
+            basis van mijn aankopen, product registraties en activiteiten op
+            pickwick.nl. Ik begrijp dat ik mij op ieder moment kan
+            <a href="#">uitschrijven</a>. Raadpleeg onze
+            <a href="#">privacy policy&nbsp;</a>voor meer informatie.</label
+          >
+        </div>
+      </form>
     </div>
   </div>
-  <div class="mail-group">
-  <label for="e-mail">e-mail &nbsp &nbsp &nbsp &nbsp &nbsp  </label>
-  <input type="email" class="mail" name="user-mail">
-  </div>
-  <div class="leeftijd-group">
-      <input type="checkbox" class="leeftijd" name="leeftijd" />
-      <label for="leeftijd">Ja, ik ben ouder dan 16 jaar.</label>
-    </div>
-    <div class="check-group">
-      <input type="checkbox" class="agreement" name="agreement" />
-      <label for="agreement"
-        >Ja, ik ontvang graag gepersonaliseerde e-mails over Pickwick<br>
-        producten, exclusieve aanbiedingen, promoties en <br> op
-        basis van mijn aankopen, product registraties en<br> activiteiten op
-        pickwick.nl. Ik begrijp dat ik mij op<br>
-         ieder moment kan
-        <a href="#">uitschrijven</a>. Raadpleeg onze
-        <a href="#">privacy policy&nbsp;</a>voor meer informatie.</label>
-      </div>
-    <div class="schrijf">
-      <h3 class="schrijf-h3">schrijf je nu in</h3>
-    </div>
-</main>
+</section>
 
 <section class="last-section">
   <div class="container-3">
@@ -269,6 +273,7 @@
   <div class="final-sec">
 
   </div>
+  
 </section>
 
 <footer class="footer">
